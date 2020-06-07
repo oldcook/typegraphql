@@ -1,0 +1,27 @@
+{
+  "name": "proj",
+  "version": "0.0.2",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.14.1",
+    "class-transformer": "^0.2.3",
+    "graphql": "^14.6.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^14.0.5",
+    "ts-node": "^8.10.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.3"
+  },
+  "scripts": {
+    "gen": "ts-node-dev --respawn -- src/generic-types/index.ts",
+    "eau": "ts-node-dev --respawn -- src/enums-and-unions/index.ts",
+    "ifi": "ts-node-dev --respawn -- src/interfaces-inheritance/index.ts",
+    "rsi": "ts-node-dev --respawn -- src/resolvers-inheritance/index.ts",
+    "sim": "ts-node-dev --respawn -- src/simple-usage/index.ts",
+    "dev": "ts-node-dev --respawn -- src/generic-types/index.ts"
+  }
+}
