@@ -19,9 +19,9 @@
   "scripts": {
     "gen": "ts-node-dev --respawn -- src/generic-types/index.ts",
     "eau": "ts-node-dev --respawn -- src/enums-and-unions/index.ts",
-    "ifi": "ts-node-dev --respawn -- src/interfaces-inheritance/index.ts",
+    "dev": "ts-node-dev --respawn -- src/interfaces-inheritance/index.ts",
     "rsi": "ts-node-dev --respawn -- src/resolvers-inheritance/index.ts",
     "sim": "ts-node-dev --respawn -- src/simple-usage/index.ts",
-    "dev": "ts-node-dev --respawn -- src/generic-types/index.ts"
+    "den": "ts-node-dev --respawn -- src/generic-types/index.ts"
   }
 }
